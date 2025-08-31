@@ -7,12 +7,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node --import ./ezm.mjs .output/server/index.mjs"
   },
   "dependencies": {
     "nuxt": "^4.0.3",
     "vue": "^3.5.20",
-    "vue-router": "^4.5.1"
-  },
-  "packageManager": "pnpm@10.15.0"
+    "vue-router": "^4.5.1",
+    "xprofiler": "^3.0.0",
+    "xtransit": "^3.0.1"
+  }
 }
